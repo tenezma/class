@@ -13,7 +13,7 @@ public class Book {
         return this.nameBook;
     }
 
-    public int getpublishYear() {
+    public int getPublishYear() {
         return this.publishYear;
     }
 
