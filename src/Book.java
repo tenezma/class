@@ -1,11 +1,12 @@
 public class Book {
-    private String nameBook;
+    private final String nameBook;
     private int publishYear;
     private Author author;
 
     public Book(String nameBook, int year, String author) {
         this.nameBook = nameBook;
         this.publishYear = year;
+
     }
 
     public String getNameBook() {
@@ -20,4 +21,11 @@ public class Book {
         this.publishYear = publishYear;
     }
 
+    public Author getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
 }
