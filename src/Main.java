@@ -12,7 +12,5 @@ public class Main {
         System.out.println("secondAuthor.getName() = " + secondAuthor.getName()+" "+secondAuthor.getSurname());
         onebook.setPublishYear(2012);
         System.out.println("onebook.getPublishYear() = " + onebook.getPublishYear());
-
-
     }
 }
